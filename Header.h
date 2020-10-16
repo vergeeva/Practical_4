@@ -50,20 +50,6 @@ public:
 		head->next = nullptr;
 	}
 
-	//List_D^ New_List(String ^ f)
-	//{
-	//	List_D^ New = gcnew List_D;
-	//	New_Node^ el = gcnew New_Node();
-	//	for (el = head; el != nullptr; el = el->next)
-	//	{
-	//		if (el->name != "" && el->name[0] == f[0])
-	//		{
-	//			New->Add(el);
-	//		}
-	//	}
-	//	return New;
-	//}
-
 
 	List_D^ List_D::New_List(String^ Nickname)
 	{
@@ -142,12 +128,6 @@ public:
 				el->var_name = New_VarName;
 			}
 		}
-		//if (What != nullptr)
-		//{
-		//	What->var_name = New_VarName;
-		//	return What;
-		//}
-		//return nullptr;
 	}
 
 
